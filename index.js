@@ -9,12 +9,7 @@ module.exports = {
   /* remove flowtype at earliest opportunity: public-ui */
   plugins: ['react', 'flowtype'],
 
-  extends: [
-    'shortlyster',
-    'plugin:react/recommended',
-    'prettier/react',
-    'stylelint-config-standard'
-  ],
+  extends: ['shortlyster', 'plugin:react/recommended', 'prettier/react'],
 
   globals: {
     expect: true,
@@ -39,6 +34,7 @@ module.exports = {
     'new-cap': [2, { newIsCap: true, capIsNew: false }],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'class-methods-use-this': 'off',
+    'no-unused-expressions': 'off',
 
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
@@ -53,8 +49,8 @@ module.exports = {
     'jsx-a11y/href-no-hash': 'off',
 
     'react/default-props-match-prop-types': 'off',
+    'react/prefer-stateless-function': 'off',
     'react/destructuring-assignment': 'off',
-    'react/prefer-stateless-function': [1],
     'react/jsx-filename-extension': 'off',
     'react/no-did-mount-set-state': 'off',
     'react/require-default-props': 'off',
