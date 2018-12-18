@@ -2,30 +2,30 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
-      legacyDecorators: true
-    }
+      legacyDecorators: true,
+    },
   },
 
   /* remove flowtype at earliest opportunity: public-ui */
   plugins: ['react', 'flowtype'],
 
-  extends: ['shortlyster', 'plugin:react/recommended', 'prettier/react'],
+  extends: ['compono', 'plugin:react/recommended', 'prettier/react'],
 
   globals: {
     expect: true,
     render: true,
     React: true,
-    sleep: true
+    sleep: true,
   },
 
   settings: {
     'import/resolver': {
-      'babel-module': {}
-    }
+      'babel-module': {},
+    },
   },
 
   env: {
-    browser: true
+    browser: true,
   },
 
   rules: {
@@ -40,7 +40,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-named-as-default': 'off',
     'import/extensions': {
-      json: 'never'
+      json: 'never',
     },
 
     'jsx-a11y/no-static-element-interactions': 'off',
@@ -65,6 +65,6 @@ module.exports = {
     'react/jsx-no-undef': 'off',
     'react/display-name': 'off',
     'react/jsx-indent': 'off',
-    'react/sort-comp': 'off'
-  }
+    'react/sort-comp': 'off',
+  },
 };
