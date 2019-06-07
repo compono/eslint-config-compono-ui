@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-compono-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Standard eslint config for Compono UI projects",
   "main": "index.js",
   "scripts": {
