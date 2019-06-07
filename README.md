@@ -31,4 +31,3 @@ We extend from [Our rules](https://github.com/Shortlyster/eslint-config-compono)
 
 With [the React plugin](https://github.com/yannickcr/eslint-plugin-react)
 With [the jsx-a11y plugin](https://github.com/evcohen/eslint-plugin-jsx-a11y)
-With [the stylelint default](https://github.com/stylelint/stylelint-config-standard)
