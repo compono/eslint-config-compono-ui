@@ -22,6 +22,10 @@ module.exports = {
     'import/resolver': {
       'babel-module': {},
     },
+
+    react: {
+      version: "detect"
+    },
   },
 
   env: {
