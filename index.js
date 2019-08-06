@@ -24,7 +24,7 @@ module.exports = {
     },
 
     react: {
-      version: "detect"
+      version: 'detect',
     },
   },
 
@@ -43,9 +43,12 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
     'import/no-named-as-default': 'off',
-    'import/extensions': {
-      json: 'never',
-    },
+    'import/extensions': [
+      'error',
+      {
+        json: 'never',
+      },
+    ],
 
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
