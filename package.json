@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Shortlyster/eslint-config-compono-ui#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-compono": "^1.4.0",
+    "eslint-config-compono": "^1.4.1-beta.1",
     "eslint-import-resolver-babel-module": "^5.3.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
