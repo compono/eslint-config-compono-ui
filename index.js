@@ -6,10 +6,9 @@ module.exports = {
     },
   },
 
-  /* remove flowtype at earliest opportunity: public-ui */
-  plugins: ['react', 'flowtype'],
+  plugins: ['react'],
 
-  extends: ['compono', 'plugin:react/recommended', 'prettier/react'],
+  extends: ['compono', 'plugin:react/recommended'],
 
   globals: {
     expect: true,
